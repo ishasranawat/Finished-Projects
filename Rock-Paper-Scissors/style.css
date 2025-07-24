@@ -1,0 +1,73 @@
+body {
+  background-color: #191919; /* Dark background */
+  color: #fff;
+  font-family: sans-serif;
+}
+
+.box,
+.btns,
+.js-moves,
+.js-result,
+.js-score,
+.reset-button {
+  display: flex;
+  justify-content: center;
+}
+
+.head {
+  font-size: 38px;
+  font-weight: 800;
+}
+
+.icons {
+  background-color: #222;
+  margin: 10px;
+  border-radius: 50%;
+  border: 2px solid white;
+  cursor: pointer;
+  transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.icons:hover {
+  background-color: #555;
+  transform: scale(1.1);
+}
+
+.icons img {
+  width: 100px;
+  height: 100px;
+  padding: 30px;
+}
+
+.result-icon {
+  width: 40px;
+  height: 40px;
+  vertical-align: middle;
+  margin: 0 6px;
+}
+
+.js-result {
+  font-weight: 700;
+  font-size: 30px;
+}
+
+.reset {
+  background-color: #dedede;
+  color: black;
+  padding: 10px 20px;
+  font-size: 16px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.reset:hover {
+  background-color: #ff6b6b;
+  color: white;
+}
+
+.js-moves,
+.js-score {
+  font-size: 20px;
+}
